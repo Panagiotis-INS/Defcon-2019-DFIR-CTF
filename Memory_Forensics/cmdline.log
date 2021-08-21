@@ -1,0 +1,194 @@
+************************************************************************
+System pid:      4
+************************************************************************
+smss.exe pid:    252
+Command line : \SystemRoot\System32\smss.exe
+************************************************************************
+csrss.exe pid:    332
+Command line : %SystemRoot%\system32\csrss.exe ObjectDirectory=\Windows SharedSection=1024,20480,768 Windows=On SubSystemType=Windows ServerDll=basesrv,1 ServerDll=winsrv:UserServerDllInitialization,3 ServerDll=winsrv:ConServerDllInitialization,2 ServerDll=sxssrv,4 ProfileControl=Off MaxRequestThreads=16
+************************************************************************
+csrss.exe pid:    372
+Command line : %SystemRoot%\system32\csrss.exe ObjectDirectory=\Windows SharedSection=1024,20480,768 Windows=On SubSystemType=Windows ServerDll=basesrv,1 ServerDll=winsrv:UserServerDllInitialization,3 ServerDll=winsrv:ConServerDllInitialization,2 ServerDll=sxssrv,4 ProfileControl=Off MaxRequestThreads=16
+************************************************************************
+wininit.exe pid:    380
+Command line : wininit.exe
+************************************************************************
+winlogon.exe pid:    416
+Command line : winlogon.exe
+************************************************************************
+services.exe pid:    476
+Command line : C:\Windows\system32\services.exe
+************************************************************************
+lsass.exe pid:    484
+Command line : C:\Windows\system32\lsass.exe
+************************************************************************
+lsm.exe pid:    492
+Command line : C:\Windows\system32\lsm.exe
+************************************************************************
+svchost.exe pid:    592
+Command line : C:\Windows\system32\svchost.exe -k DcomLaunch
+************************************************************************
+svchost.exe pid:    672
+Command line : C:\Windows\system32\svchost.exe -k RPCSS
+************************************************************************
+svchost.exe pid:    764
+Command line : C:\Windows\System32\svchost.exe -k LocalServiceNetworkRestricted
+************************************************************************
+svchost.exe pid:    796
+Command line : C:\Windows\System32\svchost.exe -k LocalSystemNetworkRestricted
+************************************************************************
+svchost.exe pid:    820
+Command line : C:\Windows\system32\svchost.exe -k netsvcs
+************************************************************************
+svchost.exe pid:    932
+Command line : C:\Windows\system32\svchost.exe -k LocalService
+************************************************************************
+svchost.exe pid:    232
+Command line : C:\Windows\system32\svchost.exe -k NetworkService
+************************************************************************
+spoolsv.exe pid:    864
+Command line : C:\Windows\System32\spoolsv.exe
+************************************************************************
+svchost.exe pid:   1028
+Command line : C:\Windows\system32\svchost.exe -k LocalServiceNoNetwork
+************************************************************************
+OfficeClickToR pid:   1136
+Command line : "C:\Program Files\Common Files\Microsoft Shared\ClickToRun\OfficeClickToRun.exe" /service
+************************************************************************
+taskhost.exe pid:   1276
+Command line : "taskhost.exe"
+************************************************************************
+taskeng.exe pid:   1292
+Command line : taskeng.exe {E9F45B18-C0E3-42EE-9422-2FAB865F5A64}
+************************************************************************
+dwm.exe pid:   1344
+Command line : "C:\Windows\system32\Dwm.exe"
+************************************************************************
+explorer.exe pid:   1432
+Command line : C:\Windows\Explorer.EXE
+************************************************************************
+FileZilla Serv pid:   1476
+Command line : "C:\Program Files (x86)\FileZilla Server\FileZilla Server.exe"
+************************************************************************
+VGAuthService. pid:   1768
+Command line : "C:\Program Files\VMware\VMware Tools\VMware VGAuth\VGAuthService.exe"
+************************************************************************
+vmtoolsd.exe pid:   1828
+Command line : "C:\Program Files\VMware\VMware Tools\vmtoolsd.exe" -n vmusr
+************************************************************************
+vmtoolsd.exe pid:   1852
+Command line : "C:\Program Files\VMware\VMware Tools\vmtoolsd.exe"
+************************************************************************
+ManagementAgen pid:   1932
+Command line : "C:\Program Files\VMware\VMware Tools\VMware CAF\pme\bin\ManagementAgentHost.exe"
+************************************************************************
+FileZilla Serv pid:   1996
+Command line : "C:\Program Files (x86)\FileZilla Server\FileZilla Server Interface.exe" 
+************************************************************************
+dllhost.exe pid:   2072
+Command line : C:\Windows\system32\dllhost.exe /Processid:{02D4B3F1-FD88-11D1-960D-00805FC79235}
+************************************************************************
+msdtc.exe pid:   2188
+Command line : C:\Windows\System32\msdtc.exe
+************************************************************************
+WmiPrvSE.exe pid:   2196
+Command line : C:\Windows\system32\wbem\wmiprvse.exe
+************************************************************************
+SearchIndexer. pid:   2456
+Command line : C:\Windows\system32\SearchIndexer.exe /Embedding
+************************************************************************
+wmpnetwk.exe pid:   2628
+Command line : "C:\Program Files\Windows Media Player\wmpnetwk.exe"
+************************************************************************
+svchost.exe pid:   2888
+Command line : C:\Windows\system32\svchost.exe -k LocalServiceAndNoImpersonation
+************************************************************************
+notepad.exe pid:   3032
+Command line : "C:\Windows\system32\notepad.exe" 
+************************************************************************
+WmiPrvSE.exe pid:   2436
+Command line : C:\Windows\system32\wbem\wmiprvse.exe
+************************************************************************
+EXCEL.EXE pid:   1272
+Command line : "C:\Program Files (x86)\Microsoft Office\root\Office16\EXCEL.EXE" 
+************************************************************************
+cmd.exe pid:   1408
+Command line : "C:\Windows\System32\cmd.exe" 
+************************************************************************
+conhost.exe pid:   1008
+Command line : \??\C:\Windows\system32\conhost.exe "-3665641233614004741886043129-1340869214-8780857402033447618-1868066120-1609534987
+************************************************************************
+taskeng.exe pid:   1156
+Command line : taskeng.exe {7F35D633-1462-41D2-B75C-0C83793D50AF}
+************************************************************************
+sppsvc.exe pid:   3260
+Command line : C:\Windows\system32\sppsvc.exe
+************************************************************************
+svchost.exe pid:   3300
+Command line : C:\Windows\System32\svchost.exe -k secsvcs
+************************************************************************
+OUTLOOK.EXE pid:   3688
+Command line : "C:\Program Files (x86)\Microsoft Office\root\Office16\OUTLOOK.EXE" 
+************************************************************************
+taskmgr.exe pid:   3792
+Command line : "C:\Windows\system32\taskmgr.exe" /4
+************************************************************************
+StikyNot.exe pid:   1628
+Command line : "C:\Windows\system32\StikyNot.exe" 
+************************************************************************
+calc.exe pid:   3548
+Command line : "C:\Windows\system32\calc.exe" 
+************************************************************************
+iexplore.exe pid:   3576
+Command line : "C:\Program Files (x86)\Internet Explorer\iexplore.exe" -Embedding
+************************************************************************
+iexplore.exe pid:   2780
+Command line : "C:\Program Files (x86)\Internet Explorer\iexplore.exe" SCODEF:3576 CREDAT:79873
+************************************************************************
+hfs.exe pid:   3952
+Command line : "C:\Users\Bob\Desktop\hfs.exe" 
+************************************************************************
+POWERPNT.EXE pid:   4048
+Command line : "C:\Program Files (x86)\Microsoft Office\root\Office16\POWERPNT.EXE" 
+************************************************************************
+FTK Imager.exe pid:   3192
+Command line : "C:\Program Files\AccessData\FTK Imager\FTK Imager.exe" 
+************************************************************************
+chrome.exe pid:   3248
+Command line : "C:\Program Files (x86)\Google\Chrome\Application\chrome.exe" 
+************************************************************************
+chrome.exe pid:   3244
+Command line : 
+************************************************************************
+chrome.exe pid:   2100
+Command line : "C:\Program Files (x86)\Google\Chrome\Application\chrome.exe" --type=watcher --main-thread-id=3272 --on-initialized-event-handle=308 --parent-handle=312 /prefetch:6
+************************************************************************
+chrome.exe pid:   1816
+Command line : "C:\Program Files (x86)\Google\Chrome\Application\chrome.exe" --type=utility --field-trial-handle=924,2132560186875629139,18153288653831290455,131072 --lang=en-US --service-sandbox-type=network --service-request-channel-token=3848528183961585196 --mojo-platform-channel-handle=1320 /prefetch:8
+************************************************************************
+chrome.exe pid:   4156
+Command line : "C:\Program Files (x86)\Google\Chrome\Application\chrome.exe" --type=renderer --field-trial-handle=924,2132560186875629139,18153288653831290455,131072 --service-pipe-token=5128242365178584495 --lang=en-US --instant-process --enable-offline-auto-reload --enable-offline-auto-reload-visible-only --device-scale-factor=1 --num-raster-threads=1 --service-request-channel-token=5128242365178584495 --renderer-client-id=7 --no-v8-untrusted-code-mitigations --mojo-platform-channel-handle=2268 /prefetch:1
+************************************************************************
+chrome.exe pid:   4232
+Command line : "C:\Program Files (x86)\Google\Chrome\Application\chrome.exe" --type=renderer --field-trial-handle=924,2132560186875629139,18153288653831290455,131072 --service-pipe-token=16174022435611898554 --lang=en-US --enable-offline-auto-reload --enable-offline-auto-reload-visible-only --device-scale-factor=1 --num-raster-threads=1 --service-request-channel-token=16174022435611898554 --renderer-client-id=8 --no-v8-untrusted-code-mitigations --mojo-platform-channel-handle=2528 /prefetch:1
+************************************************************************
+chrome.exe pid:   4240
+Command line : "C:\Program Files (x86)\Google\Chrome\Application\chrome.exe" --type=renderer --field-trial-handle=924,2132560186875629139,18153288653831290455,131072 --service-pipe-token=6187966837059053897 --lang=en-US --extension-process --enable-offline-auto-reload --enable-offline-auto-reload-visible-only --device-scale-factor=1 --num-raster-threads=1 --service-request-channel-token=6187966837059053897 --renderer-client-id=4 --no-v8-untrusted-code-mitigations --mojo-platform-channel-handle=2536 /prefetch:1
+************************************************************************
+chrome.exe pid:   4520
+Command line : 
+************************************************************************
+chrome.exe pid:   4688
+Command line : "C:\Program Files (x86)\Google\Chrome\Application\chrome.exe" --type=renderer --field-trial-handle=924,2132560186875629139,18153288653831290455,131072 --disable-gpu-compositing --service-pipe-token=2094820586012107996 --lang=en-US --enable-offline-auto-reload --enable-offline-auto-reload-visible-only --device-scale-factor=1 --num-raster-threads=1 --service-request-channel-token=2094820586012107996 --renderer-client-id=13 --no-v8-untrusted-code-mitigations --mojo-platform-channel-handle=3844 /prefetch:1
+************************************************************************
+wscript.exe pid:   5116
+Command line : "C:\Windows\System32\wscript.exe" //B //NOLOGO %TEMP%\vhjReUDEuumrX.vbs
+************************************************************************
+UWkpjFjDzM.exe pid:   3496
+Command line : "C:\Users\Bob\AppData\Local\Temp\rad93398.tmp\UWkpjFjDzM.exe" 
+************************************************************************
+cmd.exe pid:   4660
+Command line : C:\Windows\system32\cmd.exe
+************************************************************************
+conhost.exe pid:   4656
+Command line : \??\C:\Windows\system32\conhost.exe "-2105419398-1914772985-1870609020-898984210-362940684623073995-430731961-49370805

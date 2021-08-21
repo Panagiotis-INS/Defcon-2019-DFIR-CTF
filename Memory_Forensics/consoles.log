@@ -1,0 +1,194 @@
+**************************************************
+ConsoleProcess: conhost.exe Pid: 1008
+Console: 0xff697200 CommandHistorySize: 50
+HistoryBufferCount: 2 HistoryBufferMax: 4
+OriginalTitle: %SystemRoot%\System32\cmd.exe
+Title: Administrator: C:\Windows\System32\cmd.exe
+AttachedProcess: cmd.exe Pid: 1408 Handle: 0x10
+----
+CommandHistory: 0x24f630 Application: aylmao.exe Flags: 
+CommandCount: 0 LastAdded: -1 LastDisplayed: -1
+FirstCommand: 0 CommandCountMax: 50
+ProcessHandle: 0x0
+----
+CommandHistory: 0x270e20 Application: cmd.exe Flags: Allocated, Reset
+CommandCount: 4 LastAdded: 3 LastDisplayed: 3
+FirstCommand: 0 CommandCountMax: 50
+ProcessHandle: 0x10
+Cmd #0 at 0x24bff0: cd C:\Users\Bob\AppData\Local\Temp3
+Cmd #1 at 0x24c040: cd C:\Users\Bob\AppData\Local\Temp
+Cmd #2 at 0x26f960: aylmao.exe
+Cmd #3 at 0x278760: aylmao.exe run
+----
+Screen 0x253350 X:80 Y:300
+Dump:
+Microsoft Windows [Version 6.1.7601]                                            
+Copyright (c) 2009 Microsoft Corporation.  All rights reserved.                 
+                                                                                
+C:\Windows\system32>cd C:\Users\Bob\AppData\Local\Temp3                         
+The system cannot find the path specified.                                      
+                                                                                
+C:\Windows\system32>cd C:\Users\Bob\AppData\Local\Temp                          
+                                                                                
+C:\Users\Bob\AppData\Local\Temp>aylmao.exe                                      
+AlphaSOC Network Flight SimulatorT (https://github.com/alphasoc/flightsim)      
+                                                                                
+flightsim is an application which generates malicious network traffic for securi
+ty                                                                              
+teams to evaluate security controls (e.g. firewalls) and ensure that monitoring 
+tools                                                                           
+are able to detect malicious traffic.                                           
+                                                                                
+Usage:                                                                          
+  flightsim [command]                                                           
+                                                                                
+Available Commands:                                                             
+  help        Help about any command                                            
+  run         Run all simulators (default) or a particular test                 
+                                                                                
+Flags:                                                                          
+  -h, --help      help for flightsim                                            
+      --version   version for flightsim                                         
+                                                                                
+Use "flightsim [command] --help" for more information about a command.          
+                                                                                
+C:\Users\Bob\AppData\Local\Temp>aylmao.exe run                                  
+                                                                                
+AlphaSOC Network Flight SimulatorT v1.1.0 (https://github.com/alphasoc/flightsim
+)                                                                               
+The IP address of the network interface is 10.0.0.101                           
+The current time is 22-Mar-19 01:44:43                                          
+                                                                                
+Time      Module   Description                                                  
+--------------------------------------------------------------------------------
+                                                                                
+01:44:43  c2-dns   Starting                                                     
+01:44:43  c2-dns   Preparing random sample of current C2 domains                
+01:44:44  c2-dns   Resolving 5830f64c8c47.com                                   
+01:44:45  c2-dns   Resolving doopriv8.info                                      
+01:44:46  c2-dns   Resolving informaticamantur.es                               
+01:44:47  c2-dns   Resolving fexi.ru                                            
+01:44:48  c2-dns   Resolving svit-zer.com                                       
+01:44:49  c2-dns   Resolving zxjfcvfvhqfqsrpz.onion                             
+01:44:50  c2-dns   Resolving hongsi.com                                         
+01:44:51  c2-dns   Resolving neverloose.bid                                     
+01:44:52  c2-dns   Resolving duorgoho.ru                                        
+01:44:53  c2-dns   Resolving selo02.ru                                          
+01:44:54  c2-dns   Finished                                                     
+01:44:54  c2-ip    Starting                                                     
+01:44:54  c2-ip    Preparing random sample of current C2 IP:port pairs          
+01:44:54  c2-ip    Finished                                                     
+01:44:54  dga      Starting                                                     
+01:44:54  dga      Generating list of DGA domains                               
+01:44:54  dga      Resolving ixmfqbu.top                                        
+01:44:55  dga      Resolving ixmfqbu.biz                                        
+01:44:56  dga      Resolving ixmfqbu.com                                        
+01:44:57  dga      Resolving chijsab.top                                        
+01:44:58  dga      Resolving chijsab.biz                                        
+01:44:59  dga      Resolving chijsab.com                                        
+01:45:00  dga      Resolving klglvxr.top                                        
+01:45:01  dga      Resolving klglvxr.biz                                        
+01:45:02  dga      Resolving klglvxr.com                                        
+01:45:03  dga      Resolving xykmebv.top                                        
+01:45:04  dga      Resolving xykmebv.biz                                        
+01:45:05  dga      Resolving xykmebv.com                                        
+01:45:06  dga      Resolving bzqezvn.top                                        
+01:45:07  dga      Resolving bzqezvn.biz                                        
+01:45:08  dga      Resolving bzqezvn.com                                        
+01:45:09  dga      Resolving rzzjaby.top                                        
+01:45:10  dga      Resolving rzzjaby.biz                                        
+01:45:11  dga      Resolving rzzjaby.com                                        
+01:45:12  dga      Resolving vrvfrog.top                                        
+01:45:13  dga      Resolving vrvfrog.biz                                        
+01:45:14  dga      Resolving vrvfrog.com                                        
+01:45:15  dga      Resolving plkclfj.top                                        
+01:45:16  dga      Resolving plkclfj.biz                                        
+01:45:17  dga      Resolving plkclfj.com                                        
+01:45:18  dga      Resolving domwjzz.top                                        
+01:45:19  dga      Resolving domwjzz.biz                                        
+01:45:20  dga      Resolving domwjzz.com                                        
+01:45:21  dga      Resolving nahdojb.top                                        
+01:45:22  dga      Resolving nahdojb.biz                                        
+01:45:23  dga      Resolving nahdojb.com                                        
+01:45:24  dga      Finished                                                     
+01:45:24  hijack   Starting                                                     
+01:45:24  hijack   Resolving alphasoc.com via ns1.sandbox.alphasoc.xyz          
+01:45:24  hijack   Success! DNS hijacking is possible in this environment       
+01:45:25  hijack   Finished                                                     
+01:45:25  scan     Starting                                                     
+01:45:25  scan     Preparing random sample of RFC 1918 destinations             
+01:45:25  scan     Preparing random sample of common TCP destination ports      
+01:45:25  scan     Port scanning 172.16.158.107                                 
+01:45:26  scan     Port scanning 172.16.141.18                                  
+01:45:27  scan     Port scanning 192.168.62.212                                 
+01:45:28  scan     Port scanning 172.16.123.213                                 
+01:45:29  scan     Port scanning 172.16.119.233                                 
+01:45:30  scan     Port scanning 192.168.152.22                                 
+01:45:31  scan     Port scanning 192.168.24.135                                 
+01:45:32  scan     Port scanning 10.0.64.149                                    
+01:45:33  scan     Port scanning 10.0.221.63                                    
+01:45:34  scan     Port scanning 192.168.206.181                                
+01:45:35  scan     Finished                                                     
+01:45:35  sink     Starting                                                     
+01:45:35  sink     Preparing random sample of current sinkhole IP:port pairs    
+01:45:35  sink     Finished                                                     
+01:45:35  spambot  Starting                                                     
+01:45:35  spambot  Preparing random sample of Internet mail servers             
+01:45:37  spambot  Connecting to mx-apac.mail.gm0.yahoodns.net:25               
+01:45:39  spambot  Connecting to ff-ip4-mx-vip2.prodigy.net:25                  
+01:45:40  spambot  Connecting to mx00.emig.gmx.net:25                           
+01:45:41  spambot  Connecting to mx1.nate.com:25                                
+01:45:42  spambot  Connecting to plsmtp2.hushmail.com:25                        
+01:45:43  spambot  Connecting to mx1.r7.email.locaweb.com.br:25                 
+01:45:44  spambot  Connecting to mx01.mail.com:25                               
+01:45:45  spambot  Connecting to mx3.bol.com.br:25                              
+01:45:46  spambot  Connecting to smtp-in.libero.it:25                           
+01:45:47  spambot  Finished                                                     
+01:45:47  tunnel   Starting                                                     
+01:45:47  tunnel   Preparing DNS tunnel hostnames                               
+01:45:47  tunnel   Resolving uydsgxiribajunbhnutozutbjgnxla.sandbox.alphasoc.xyz
+                                                                                
+01:45:48  tunnel   Resolving ruwbnnefhetcndkzgchvcpbnfpoffw.sandbox.alphasoc.xyz
+                                                                                
+01:45:49  tunnel   Resolving jilhcxvksydkfyjrcdnaaxygujdoft.sandbox.alphasoc.xyz
+                                                                                
+01:45:50  tunnel   Resolving adahmhjmpndbmptijsrumlrdhqjgtw.sandbox.alphasoc.xyz
+                                                                                
+01:45:51  tunnel   Resolving cgrzqbbanccbruuofvbbvcumszezpr.sandbox.alphasoc.xyz
+                                                                                
+01:45:52  tunnel   Resolving jdcnvsfuqjvylwhfatlwvyxjiahccl.sandbox.alphasoc.xyz
+                                                                                
+01:45:53  tunnel   Resolving kvuevaczccxflcjhmuuuljaloihjkk.sandbox.alphasoc.xyz
+                                                                                
+01:45:54  tunnel   Resolving joetbnnumwcpkwazthkvmwpnaxcaov.sandbox.alphasoc.xyz
+                                                                                
+01:45:55  tunnel   Resolving ezvchxsssknshycqipbysjnlizvurd.sandbox.alphasoc.xyz
+                                                                                
+01:45:56  tunnel   Resolving dbnrcmrldvmjxiopejqbespijlnxck.sandbox.alphasoc.xyz
+                                                                                
+01:45:57  tunnel   Finished                                                     
+                                                                                
+All done! Check your SIEM for alerts using the timestamps and details above.    
+                                                                                
+C:\Users\Bob\AppData\Local\Temp>                                                
+**************************************************
+ConsoleProcess: conhost.exe Pid: 4656
+Console: 0xff697200 CommandHistorySize: 50
+HistoryBufferCount: 2 HistoryBufferMax: 4
+OriginalTitle: %SystemRoot%\system32\cmd.exe
+Title: Administrator: C:\Windows\system32\cmd.exe
+AttachedProcess: cmd.exe Pid: 4660 Handle: 0x60
+----
+CommandHistory: 0x76070 Application: attrib.exe Flags: 
+CommandCount: 0 LastAdded: -1 LastDisplayed: -1
+FirstCommand: 0 CommandCountMax: 50
+ProcessHandle: 0x0
+----
+CommandHistory: 0x75e90 Application: cmd.exe Flags: Allocated
+CommandCount: 0 LastAdded: -1 LastDisplayed: -1
+FirstCommand: 0 CommandCountMax: 50
+ProcessHandle: 0x60
+----
+Screen 0x63290 X:80 Y:300
+Dump:
+

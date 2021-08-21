@@ -1,0 +1,22 @@
+**************************************************
+CommandProcess: conhost.exe Pid: 1008
+CommandHistory: 0x270e20 Application: cmd.exe Flags: Allocated, Reset
+CommandCount: 4 LastAdded: 3 LastDisplayed: 3
+FirstCommand: 0 CommandCountMax: 50
+ProcessHandle: 0x10
+Cmd #0 @ 0x24bff0: cd C:\Users\Bob\AppData\Local\Temp3
+Cmd #1 @ 0x24c040: cd C:\Users\Bob\AppData\Local\Temp
+Cmd #2 @ 0x26f960: aylmao.exe
+Cmd #3 @ 0x278760: aylmao.exe run
+Cmd #15 @ 0x220158: &
+Cmd #16 @ 0x26f7b0: '
+**************************************************
+CommandProcess: conhost.exe Pid: 4656
+CommandHistory: 0x75e90 Application: cmd.exe Flags: Allocated
+CommandCount: 0 LastAdded: -1 LastDisplayed: -1
+FirstCommand: 0 CommandCountMax: 50
+ProcessHandle: 0x60
+Cmd #31 @ 0x300f8: 
+Cmd #32 @ 0x300f8: 
+Cmd #33 @ 0x30060: 
+Cmd #34 @ 0x30060: 

@@ -141,7 +141,79 @@ Service Pack 1
 
 **7th Flag**
 
+```bash
+volatility -f Triage-Memory.mem --profile=Win7SP1x64 malfind |tee malfind.log
+mkdir dump
+volatility -f Triage-Memory.mem --profile=Win7SP1x64 procdump -p 3496 -D dump
+```
 
+**8th Flag**
+
+```bash
+volatility -f Triage-Memory.mem --profile=Win7SP1x64 hashdump
+```
+
+**9th Flag**
+
+```bash
+volatility -f Triage-Memory.mem --profile=Win7SP1x64 vadinfo |tee vadinfo.log
+cat vadinfo.log |grep -A 10 "0xfffffa800577ba10" |grep -i "protection"
+```
+
+**10th Flag**
+
+```bash
+cat vadinfo.log |grep -A 10 "Start 0x00000000033c0000 End 0x00000000033dffff" |grep -i "protection"
+```
+
+**11th Flag**
+
+```bash
+volatility -f Triage-Memory.mem --profile=Win7SP1x64 filescan |tee filescan.log
+volatility -f Triage-Memory.mem --profile=Win7SP1x64 mftparser |tee mftparser.log
+cat mftparser.log|grep "vbs"
+```
+
+**12th Flag**
+
+```bash
+volatility -f Triage-Memory.mem --profile=Win7SP1x64 cmdline |tee cmdline.log
+volatility -f Triage-Memory.mem --profile=Win7SP1x64 cmdscan |tee cmdscan.log
+volatility -f Triage-Memory.mem --profile=Win7SP1x64 consoles |tee consoles.log
+volatility -f Triage-Memory.mem --profile=Win7SP1x64 shimcache |tee shimcache.log
+cat shimcache.log |grep "2019–03–07"
+```
+
+**13th Flag**
+
+```
+https://www.andreafortuna.org/2017/07/10/volatility-my-own-cheatsheet-part-3-process-memory/
+```
+
+```bash
+cat pstree.log |grep -i "notepad"
+volatility -f Triage-Memory.mem --profile=Win7SP1x64 memdump -p 3032 -D dump
+volatility -f Triage-Memory.mem --profile=Win7SP1x64 memmap -p 3032 |tee 3032_memmap.log
+volatility -f Triage-Memory.mem --profile=Win7SP1x64 vadtree -p 3032 --output=dot --output-file=graph.dot
+mkdir Vad_dump_dir
+volatility -f Triage-Memory.mem --profile=Win7SP1x64 vaddump -p 3032 -D Vad_dump_dir
+```
+
+After some enumeration on the Vads we find the flag
+
+**14th Flag**
+
+```bash
+cat mftparser.log |grep -A 20 "Record Number: 59045"
+```
+
+**15th Flag**
+
+```
+0xfffffa8005a1d9e0:UWkpjFjDzM.exe                3496   5116      5    109 2019-03-22 05:35:33 UTC+0000
+```
+
+**16th Flag**
 
 # Flags:
 
@@ -151,13 +223,13 @@ Service Pack 1
 4. ```FLAG<UWkpjFjDzM.exe>```
 5. ```FLAG<10.0.0.101>```
 6. ```FLAG<10.0.0.106>```
-7. ```FLAG<OfficeClickToRun.exe>```
-8. ```FLAG<>```
-9. ```FLAG<>```
-10. ```FLAG<>```
-11. ```FLAG<>```
-12. ```FLAG<>```
-13. ```FLAG<>```
-14. ```FLAG<>```
-15. ```FLAG<>```
-16. ```FLAG<>```
+7. ```FLAG<OfficeClickToR>```
+8. ```FLAG<690ea20bc3bdfb328e23005d9a80c290>```
+9. ```FLAG<aad3b435b51404eeaad3b435b51404ee>```
+10. ```FLAG<PAGE_READONLY>```
+11. ```FLAG<PAGE_NOACCESS>```
+12. ```FLAG<vhjReUDEuumrX>```
+13. ```FLAG<Skype.exe>```
+14. ```FLAG<REDBULL_IS_LIFE>```
+15. ```FLAG<EMPLOY~1.XLS>```
+16. ```FLAG<3496>```
